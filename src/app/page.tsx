@@ -3,6 +3,7 @@ import HeroSection from "@/components/customer/hero-section";
 import CategorySection from "@/components/customer/category-section";
 import PopularProduceSection from "@/components/customer/popular-produce-section";
 import WhyChooseSection from "@/components/customer/why-choose-section";
+import FarmersSection from "@/components/customer/farmers-section";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <CategorySection />
         <PopularProduceSection />
         <WhyChooseSection />
+        <FarmersSection />
       </main>
     </>
   );
