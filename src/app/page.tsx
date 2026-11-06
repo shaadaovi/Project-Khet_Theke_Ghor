@@ -1,6 +1,7 @@
 import SiteHeader from "@/components/layout/site-header";
 import HeroSection from "@/components/customer/hero-section";
 import CategorySection from "@/components/customer/category-section";
+import PopularProduceSection from "@/components/customer/popular-produce-section";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <CategorySection />
+        <PopularProduceSection />
       </main>
     </>
   );
